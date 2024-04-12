@@ -1,0 +1,21 @@
+.mobile-app {
+  width: 40%;
+  margin: 4rem auto;
+}
+.moble-app-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 2rem 0px;
+  font-weight: 700;
+}
+.mobile-app-store {
+  display: flex;
+  justify-content: space-between;
+}
+.mobile-app-store img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.w-50 {
+  width: 45%;
+}

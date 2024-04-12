@@ -1,0 +1,9 @@
+.food-display .text-2xl {
+  margin: 2rem 0rem;
+}
+
+.food-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

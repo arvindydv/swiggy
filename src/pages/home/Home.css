@@ -1,0 +1,25 @@
+.hero-banner {
+  background: url("../../assets/header_img.png");
+  background-repeat: no-repeat;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+.txt-4xl {
+  font-size: 3em;
+  font-weight: 500;
+}
+.hero-section {
+  width: 80%;
+  padding: 6rem 5rem;
+}
+.view-menu-btn {
+  margin-top: 1rem;
+  background: white;
+  border-radius: 30px;
+  border: 1px solid;
+  padding: 10px 15px;
+  outline: none;
+}

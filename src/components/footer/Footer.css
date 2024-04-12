@@ -1,0 +1,55 @@
+.footer {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.801);
+  color: white;
+  margin-top: 2rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding: 3rem 1rem;
+}
+
+.footer-left {
+  width: 48%;
+}
+.footer-right {
+  width: 44%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  width: 140px;
+}
+
+.footer-txt {
+  margin: 12px 0px;
+}
+.social-media-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 27%;
+}
+.smi {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 9px;
+}
+.smi svg {
+  height: 20px;
+  width: 20px;
+}
+.company ul {
+  list-style: none;
+}
+.company ul li,
+.get-in-touch p {
+  margin-bottom: 5px;
+}
+.copy-right-txt {
+  text-align: center;
+  padding: 1rem 0rem;
+}
