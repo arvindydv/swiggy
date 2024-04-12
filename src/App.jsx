@@ -5,6 +5,7 @@ import StoreContextProvider from "./context/StoreContext";
 import Home from "./pages/home/Home";
 import { useState } from "react";
 import LoginModal from "./components/loginModal/LoginModal";
+// import "./App.css";
 
 function App() {
   const [showLoginModal, setShowLoginModal] = useState(false);

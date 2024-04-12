@@ -1,0 +1,73 @@
+.header-btns svg {
+  font-size: 21px;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .header-btns {
+    width: 25%;
+  }
+
+  .hero-section {
+    padding: 2rem 2rem;
+  }
+
+  .food-item {
+    width: 31%;
+  }
+  .moble-app-heading {
+    font-size: 1rem;
+  }
+  .mobile-app {
+    width: 45%;
+  }
+  .social-media-icons {
+    width: 60%;
+  }
+  .footer-right {
+    width: 32%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header-btns {
+    width: 45%;
+  }
+  .container {
+    width: 100%;
+  }
+  .txt-4xl {
+    font-size: 2rem;
+  }
+  .hero-section {
+    padding: 2rem 1rem;
+  }
+  p {
+    font-size: 14px;
+  }
+  .menu-item {
+    min-width: 18%;
+  }
+
+  .food-item {
+    width: 48%;
+  }
+
+  .footer-content {
+    width: 100%;
+    flex-direction: column;
+  }
+  .footer-left {
+    width: 100%;
+  }
+  .social-media-icons {
+    width: 42%;
+  }
+
+  .footer-right {
+    width: 100%;
+  }
+  .company {
+    margin: 2rem 0rem;
+  }
+}

@@ -37,6 +37,9 @@ a {
   .hero-section {
     padding: 2rem 2rem;
   }
+  .nav-list {
+    display: none;
+  }
 
   .food-item {
     width: 31%;
@@ -51,7 +54,7 @@ a {
     width: 60%;
   }
   .footer-right {
-    width: 32%;
+    width: 50%;
   }
 }
 
@@ -92,6 +95,7 @@ a {
 
   .footer-right {
     width: 100%;
+    flex-direction: column;
   }
   .company {
     margin: 2rem 0rem;
