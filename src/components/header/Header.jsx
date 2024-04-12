@@ -6,6 +6,7 @@ import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 
 const Header = ({ setShowLoginModal }) => {
+  const [checkNav, setCheckNav] = useState("home");
   return (
     <header>
       <nav>
@@ -19,38 +20,26 @@ const Header = ({ setShowLoginModal }) => {
           </Link>
         </div>
         <ul className="nav-list">
-          <NavLink
-            to="/"
-            className={({ isActive }) =>
-              ` ${isActive ? "active" : "text-black"} `
-            }
-          >
-            <li>Home</li>
-          </NavLink>
-          <NavLink
-            to="/menu"
-            className={({ isActive }) =>
-              ` ${isActive ? "active" : "text-black"} `
-            }
-          >
-            <li>Menu</li>
-          </NavLink>
-          <NavLink
-            to="/mobile-app"
-            className={({ isActive }) =>
-              ` ${isActive ? "active" : "text-black"} `
-            }
-          >
-            <li>Mobile-app</li>
-          </NavLink>
-          <NavLink
-            to="/contact-us"
-            className={({ isActive }) =>
-              ` ${isActive ? "active" : "text-black"} `
-            }
-          >
-            <li>contact-us</li>
-          </NavLink>
+          <a href="#home" onClick={() => setCheckNav("home")}>
+            <li className={checkNav == "home" ? "active-nav" : ""}>Home</li>
+          </a>
+
+          <a href="#menu" onClick={() => setCheckNav("menu")}>
+            {" "}
+            <li className={checkNav == "menu" ? "active-nav" : ""}>Menu</li>
+          </a>
+
+          <a href="#mobile-app" onClick={() => setCheckNav("mobile-app")}>
+            <li className={checkNav == "mobile-app" ? "active-nav" : ""}>
+              Mobile-app
+            </li>
+          </a>
+
+          <a href="#footer" onClick={() => setCheckNav("footer")}>
+            <li className={checkNav == "footer" ? "active-nav" : ""}>
+              contact-us
+            </li>
+          </a>
         </ul>
         <div className="header-btns">
           <FaSearch />

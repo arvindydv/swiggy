@@ -4,7 +4,7 @@ import "./MobileApp.css";
 
 const MobileApp = () => {
   return (
-    <div className="mobile-app">
+    <div className="mobile-app" id="mobile-app">
       <p className="moble-app-heading">
         For better Experince Download
         <br />
