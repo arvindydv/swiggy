@@ -9,6 +9,7 @@ import LoginModal from "./components/loginModal/LoginModal";
 
 function App() {
   const [showLoginModal, setShowLoginModal] = useState(false);
+  
   return (
     <>
       {" "}

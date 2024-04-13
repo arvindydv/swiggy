@@ -85,7 +85,7 @@ a {
   }
 
   .food-item {
-    width: 48%;
+    width: 100%;
   }
 
   .footer-content {
@@ -105,5 +105,16 @@ a {
   }
   .company {
     margin: 2rem 0rem;
+  }
+  .food-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .name-rating img {
+    width: 100px;
+  }
+  .des {
+    font-size: 17px;
   }
 }
