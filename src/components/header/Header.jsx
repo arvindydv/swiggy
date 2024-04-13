@@ -5,7 +5,7 @@ import { FaCartPlus } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 
-const Header = ({ setShowLoginModal }) => {
+const Header = ({ setShowLoginModal, setShowSerachBar }) => {
   const [checkNav, setCheckNav] = useState("home");
   return (
     <header>
@@ -42,7 +42,11 @@ const Header = ({ setShowLoginModal }) => {
           </a>
         </ul>
         <div className="header-btns">
-          <FaSearch />
+          <FaSearch
+            onClick={() => {
+              setShowSerachBar(true);
+            }}
+          />
           <NavLink to="/cart">
             {" "}
             <FaCartPlus />

@@ -5,9 +5,10 @@ import Header from "../../components/header/Header";
 import MobileApp from "../../components/mobile-app/MobileApp";
 import "./Home.css";
 
-const Home = () => {
+const Home = ({ setSearchValue }) => {
   const [category, setCategory] = useState("All");
-  
+  // console.log(setSearchValue, "setSearchValuesetSearchValue");
+
   return (
     <>
       <div className="container">
